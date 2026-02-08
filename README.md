@@ -1,6 +1,10 @@
 # Unity-MySQL State Sync
 A lightweight Unity-to-MySQL synchronization system using Node.js to manage inventory transactions and proximity-based interaction.
 
+https://github.com/user-attachments/assets/c77deb23-e49d-4aec-8378-b8e9c3e153d9
+
+ 
+
 ## How to Setup
 1. Open phpMyAdmin (usually http://localhost/phpmyadmin)
 2. Click the Import tab at the top
