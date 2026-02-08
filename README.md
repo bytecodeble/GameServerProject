@@ -23,9 +23,9 @@ A lightweight Unity-to-MySQL synchronization system using Node.js to manage inve
 - **Dynamic Spawning:** Fetches player coordinates and attributes from the database to instantiate the player in the scene.
 
 ## Project Structure
-- `ServerControl.cs`: Manages Unity-to-Server communication, JSON parsing, and UI binding.
-- `PlayerMovement.cs`: Handles WASD movement and mouse-look camera rotation.
-- `app.js`: Express.js backend processing Unity REST requests and managing SQL transactions with dynamic connection handling.
+- `ServerControl.cs`: Manages Unity-to-Server communication, JSON parsing, and UI binding. 
+- `app.js`: Express.js backend processing Unity REST requests and managing SQL transactions with dynamic connection handling. 
+- `database.sql`: Create the database with the players table and inventory table with initial testing data. 
 
 ## Key API Endpoints
 - `GET /getPlayerData/:id`: Fetches player name and health.
